@@ -25,7 +25,13 @@
         "open_in_tab": true
     },
 
-   "permissions": ["activeTab", "contextMenus", "storage", "https://www.decutr.com/*"]
+    "permissions": ["activeTab", "contextMenus", "storage", "https://www.decutr.com/*", "clipboardWrite"],
+
+     "browser_specific_settings":{
+          "gecko": {
+               "id": "decutr@decutr.com"
+          }
+     }
 }
 
 
